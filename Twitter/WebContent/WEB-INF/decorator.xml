@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators">
+     <excludes>
+         <pattern>/nodecorate/*</pattern>
+        <pattern>/styles/*</pattern>
+        <pattern>/assets/*</pattern>
+        <pattern>/scripts/*</pattern>
+        <pattern>/img/*</pattern>
+        <pattern>/index.html</pattern>  
+     </excludes>
+    <decorator name="basic-theme" page="basic-theme.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>

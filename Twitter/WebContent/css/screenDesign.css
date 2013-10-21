@@ -1,0 +1,202 @@
+body{
+	background: #dddddd;
+	position:relative;
+}
+
+nav, section, header{
+	margin: auto;
+	background: #FFFFFF;	
+}
+header{
+margin-top: 25px;
+height: 200px;
+width: 1000px;
+position:relative;
+background: rgba(183,222,237,1);
+background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 21%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(0%, rgba(113,206,239,1)), color-stop(21%, rgba(33,180,226,1)), color-stop(98%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 21%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 21%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 21%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 21%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#ffffff', GradientType=0 );
+}
+header h1{
+	margin:0;
+	padding-top: 40px;
+	font-size: 8em;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Bangers', cursive;	
+  	background: -webkit-linear-gradient(#eee, #333);
+ 	 -webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;	
+}
+header img{
+	position:absolute;
+	left: -50px;
+	top: -50px;
+}
+#Connexion{
+	margin: 0;
+	margin: auto;
+	background: #FFFFFF;
+	width: 220px;
+
+	padding: 30px 10px 10px 10px;
+	position: absolute;
+	top: -10px;
+	left: -275px;
+	border-radius: 15px;
+	border: solid 1px 	#5dc7ec;
+	overflow:hidden;
+}
+#Connexion img{
+	float: left;
+	padding: 0 20px 0 20px;
+}
+#Connexion h2{
+	font-size: 16px;
+	padding-right: 38px;
+	float: right;
+	margin-top: -10px;
+}
+#Connexion form{
+	margin-top: 25px;
+	margin-left: 5px;
+	margin-bottom:0;
+}
+#Connexion form input{
+	margin-bottom: 10px;
+}
+#Connexion form input:last-child{
+	margin-bottom: 3px;	
+}
+
+#Connexion hr{
+ border-top: 1px dotted #5dc7ec;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;	
+}
+#Connexion p{
+	font-size: 14px;
+	text-align:center;
+}
+#Connexion button{
+	margin-top: 5px;
+}
+section{
+	padding: 10px;
+	width: 980px;	
+	min-height: 500px;	
+}
+section div{
+	width: 700px;
+	margin: 15px;
+	border: dotted 1px #d7f1fa ;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background: #edfbff;
+}
+#user{
+	margin: 0;
+	margin: auto;
+	background: #FFFFFF;
+	width: 980px;
+	padding: 30px 10px 5px 10px;
+	height: 100px;	
+	position: relative;
+}
+#user img{
+	float: left;
+	padding: 0 20px 0 20px;	
+}
+.optionFollow{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}
+aside{
+	width: 230px;
+	padding-left: 10px;
+	float: right;
+	margin-top: 15px;
+}
+aside ul{
+	list-style-type: none;
+}
+aside ul li{
+	padding: 10px;
+	font-family: 'Cantora One', sans-serif;	
+	background: #ebf8fc;
+	color: #8f8f8f;
+	font-size: 18px;
+	font-weight: bold;	
+	border: solid 1px grey;
+}
+aside ul li:hover{
+	background: #22b4e2;
+	color: white;
+}
+aside a{
+	color: black;
+	text-decoration:none;
+	font-weight: normal;
+}
+#welcome{
+	margin-top: 30px;
+	text-align:center;
+}
+#welcome h2{
+	font-size:14px;
+}
+#welcome button{
+	text-align:center;
+	margin-top:20px;
+}
+#noFollowers{
+	margin:0;
+	padding:0;
+	font-size: 2.4em;
+	text-align: center;
+	font-family: 'Bangers', cursive;	
+}
+.showError{
+	padding: 10px;
+	border: solid 1px red;
+	color: red;
+	border-radius: 10px;
+}
+#titreError{
+	font-size: 8em;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Bangers', cursive;	
+	color: red!important;
+	margin-top: 10px;
+}
+#err404 section{
+	text-align:center;
+	margin:auto;
+}
+#gohome{
+	margin-top: 80px;	
+	min-height: 270px;	
+	
+}
+#gohome a{
+	color:black;
+}
+#gohome img{
+	float: left;
+	margin-right: 10px;
+}
+#gohome h1{
+	float: left;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Bangers', cursive;
+	padding-top: 20px;		
+}
